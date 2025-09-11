@@ -1,20 +1,60 @@
-scipy
-pandas
-scikit-learn
-matplotlib
-seaborn
-numpy
-xgboost
-tensorflow
-keras
-statsmodels
-plotly
-jupyter
-lightgbm
-catboost
-pillow
-opencv-python
-sqlalchemy
-beautifulsoup4
-requests
-ipykernel
+1 - Computador escolhido: EDVAC (Electronic Discrete Variable Automatic Computer)
+Arquitetura e Organização
+
+O EDVAC foi um dos primeiros computadores eletrônicos digitais, projetado entre 1944 e 1949, sucessor do ENIAC. Ele foi o primeiro a adotar, na prática, a arquitetura de Von Neumann, que se tornou o padrão dominante.
+
+Arquitetura:
+
+Unidade de Processamento: responsável pelas operações aritméticas e lógicas.
+
+Unidade de Controle: coordenava a execução das instruções.
+
+Memória: diferente do ENIAC, o EDVAC armazenava dados e instruções no mesmo espaço de memória, implementando o conceito de programa armazenado.
+
+I/O: entrada por fita perfurada e saída por dispositivos de impressão.
+
+Barramentos: ainda rudimentares, mas já existia separação lógica entre dados, endereços e sinais de controle.
+
+Organização Física:
+
+Usava válvulas a vácuo (cerca de 6.000) para processamento.
+
+Memória implementada com linhas de atraso de mercúrio (capacidade inicial de 1.024 palavras de 44 bits).
+
+Consumia muita energia e ocupava uma sala inteira.
+
+1.1 - Paralelo da Arquitetura ao longo do tempo
+
+1940–1950 (Primeira Geração): EDVAC introduziu o conceito de programa armazenado → base para todos os computadores subsequentes.
+
+1960–1970 (Segunda e Terceira Geração): válvulas substituídas por transistores e depois circuitos integrados, reduzindo tamanho e consumo.
+
+1970–1990: surgem os microprocessadores (Intel 4004, depois Intel 8086), consolidando arquiteturas CISC e RISC.
+
+2000 em diante: EDVAC é visto como “raiz” de processadores atuais com multicore, GPUs, TPUs e arquiteturas híbridas.
+
+Atualidade: a ideia de Von Neumann ainda é usada, mas enfrenta limites (chamado “gargalo de Von Neumann”), surgindo arquiteturas não-Von Neumann como neuromórficas e quânticas.
+
+1.2 - Comparação com mudanças na modelagem de software
+
+A evolução do hardware (EDVAC → processadores atuais) tem paralelo com a evolução do software:
+
+EDVAC (anos 40–50):
+
+Programação feita em linguagem de máquina (binário), extremamente rígida.
+
+Similar ao software monolítico inicial, sem modularidade.
+
+Décadas seguintes:
+
+Hardware se torna mais poderoso, permitindo linguagens de alto nível (Fortran, COBOL, C).
+
+Software evolui com estruturas de dados, modularidade e orientação a objetos.
+
+Hoje:
+
+Hardware multiprocessado e paralelo → necessidade de software concorrente, distribuído e escalável.
+
+Assim como hardware deixou de ser centralizado (de um único processador para multicore e clusters), software também passou de monólitos para microsserviços, arquiteturas distribuídas e cloud.
+
+➡️ Conclusão: O EDVAC marcou o início da “linguagem comum” entre hardware e software: o programa armazenado. Da mesma forma, a evolução do hardware e do software acompanha sempre a demanda por maior flexibilidade, modularidade e eficiência.
